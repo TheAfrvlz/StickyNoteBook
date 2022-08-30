@@ -1,0 +1,28 @@
+.Menu-It i{
+    cursor: pointer;
+    margin-top: var(--fs0);
+    background-color: #2860c9;
+    color:rgb(255, 255, 255);
+    width: 38px;
+    height: 38px;
+    border-radius: var(--fs0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Menu-It i:active{
+    background-color: rgb(7, 161, 71);
+}
+
+.Menu-It .bi-trash3-fill:active{
+    background-color: #bd3939;
+}
+
+.ContainerC:nth-child(1){
+    padding: var(--fs0) 0;
+}
+
+.ContainerC:last-child{
+    background-color: aqua;
+}

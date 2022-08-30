@@ -92,6 +92,221 @@ body{
 .foward{
     z-index: 12;
 }
+@media (min-width: 376px) { 
+
+    .Ees-wrap{
+        flex-wrap: wrap;
+    }
+    .Ees-not-wrap{
+        flex-wrap: nowrap;
+    }
+
+    .Ees-flex{
+        display: flex;
+    }
+    .Ees-Abs{
+        display:grid;
+    }
+    .Ees-None{
+        display: None;
+    }
+    .Ees-Block{
+        display:block;
+    }
+
+    .Ees-Pos-Abs{
+        position: absolute;
+    }
+    .Ees-Pos-Fix{
+        position: fixed;
+    }
+    .Ees-Pos-Rel{
+        position: relative;
+    }
+    .Ees-Pos-Sti{
+        position:sticky;
+    }
+
+    .Ees-vh10{
+        height: 100vh;
+    }
+    .Ees-vh8{
+        height: 80vh;
+    }
+    .Ees-vh6{
+        height: 60vh;
+    }
+    .Ees-vh4{
+        height: 40vh;
+    }
+    .Ees-vh2{
+        height: 20vh;
+    }
+    .Ees-vw10{
+        width: 100vw;
+    }
+    .Ees-vw8{
+        width: 80vw;
+    }
+    .Ees-vw6{
+        width: 60vw;
+    }
+    .Ees-vw4{
+        width: 40vw;
+    }
+    .Ees-vw2{
+        width: 20vw;
+    }
+    .Ees-Cl{
+        flex-direction: column;
+    }
+    .Ees-Rw{
+        flex-direction: row;
+    }
+    .Ees-top{
+        position: sticky;
+        top: 0;
+    }
+
+    .Ees-Fs0{
+        font-size: clamp(var(--fs0), 5px, var(--fs1));
+    }
+    .Ees-Fs1{
+        font-size: clamp(var(--fs1), 5px, var(--fs2));
+    }
+    .Ees-Fs2{
+        font-size: clamp(var(--fs2), 5px, var(--fs3));
+    }
+    .Ees-Fs3{
+        font-size: clamp(var(--fs3), 5px, var(--fs4));
+    }
+    .Ees-Fs4{
+        font-size: clamp(var(--fs4), 5px, var(--fs5));
+    }
+    .Ees-Fs5{
+        font-size: clamp(var(--fs5), 5px, var(--fs6));
+    }
+    .Ees-Fs6{
+        font-size: clamp(var(--fs6), 5px, var(--fs7));
+    }
+    .Ees-Fs7{
+        font-size: clamp(var(--fs7), 5px, var(--fs8));
+    }
+    .Ees-Fs8{
+        font-size: clamp(var(--fs8), 5px, var(--fs9));
+    }
+    .Ees-Fs9{
+        font-size: clamp(var(--fs9), 5px, var(--fs10));
+    }
+    .Ees-Fs10{
+        font-size: clamp(var(--fs10), 5px, var(--fs11));
+    }
+    .Ees-Fs11{
+        font-size: clamp(var(--fs10), 5px, var(--fs12));
+    }
+    .Ees-Fs0-s2{
+        font-size: clamp(var(--fs0), 5px, var(--fs2));
+    }
+
+    .Ees-Fs2-s4{
+        font-size: clamp(var(--fs2), 5px, var(--fs4));
+    }
+
+    .Ees-Fs4-s6{
+        font-size: clamp(var(--fs4), 5px, var(--fs6));
+    }
+    .Ees-Fs6-s8{
+        font-size: clamp(var(--fs6), 5px, var(--fs8));
+    }
+    .Ees-Fs8-s10{
+        font-size: clamp(var(--fs8), 5px, var(--fs10));
+    }
+    .Ees-Fs10-s12{
+        font-size: clamp(var(--fs10), 5px, var(--fs12));
+    }
+    
+    .Ees-wrap{
+        flex-wrap: wrap;
+    }
+    .Ees-not-wrap{
+        flex-wrap: nowrap;
+    }
+    
+    
+    .Ees-Vs{
+       visibility: visible;
+    }
+    .Ees-Vs-none{
+        visibility: hidden;
+    }
+    .Ees-Of-Hidden{
+        overflow: hidden;
+    }
+    .Ees-Of-Scroll{
+        overflow: scroll;
+    }
+    .Ees-Of-Visible{
+        overflow: visible;
+    }
+    .Ees-f-Center{
+        justify-content: center;
+        align-items: center;
+    }
+
+    .Ees-A-Center{
+        transform: translate(-50%,-50%);
+        top:-50%;
+        left: -50%;
+    }
+    .Ees-mg-auto{
+        margin: auto;
+    }
+    .Ees-gp0{
+        font-size: clamp(var(--fs0), 5px, var(--fs1));
+    }
+    .Ees-gp1{
+        gap: clamp(var(--fs1), 5px, var(--fs2));
+    }
+    .Ees-gp2{
+        gap: clamp(var(--fs2), 5px, var(--fs3));
+    }
+    .Ees-gp3{
+        gap: clamp(var(--fs3), 5px, var(--fs4));
+    }
+    .Ees-gp4{
+        gap: clamp(var(--fs4), 5px, var(--fs5));
+    }
+    .Ees-gp5{
+        gap: clamp(var(--fs5), 5px, var(--fs6));
+    }
+    .Ees-gp6{
+        gap: clamp(var(--fs6), 5px, var(--fs7));
+    }
+    .Ees-gp7{
+        gap: clamp(var(--fs7), 5px, var(--fs8));
+    }
+    .Ees-gp8{
+        gap: clamp(var(--fs8), 5px, var(--fs9));
+    }
+    .Ees-gp9{
+        gap: clamp(var(--fs9), 5px, var(--fs10));
+    }
+    .Ees-gp10{
+        gap: clamp(var(--fs10), 5px, var(--fs11));
+    }
+    .Ees-gp11{
+        gap: clamp(var(--fs10), 5px, var(--fs12));
+    }
+    .Ees-ObFit-Fill{
+        object-fit: fill;
+    }
+    .Ees-ObFit-Cover{
+        object-fit: Cover;
+    }
+    .Ees-ObFit-Cont{
+        object-fit: contain;
+    }
+}
 /*ES*/
 @media (min-width: 576px) { 
 
