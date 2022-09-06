@@ -1,28 +1,119 @@
-.Menu-It i{
+html{
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; 
+}
+.Menu-It i{    
+    box-shadow: 0px 0px 4px #a9a8a8;
     cursor: pointer;
     margin-top: var(--fs0);
-    background-color: #2860c9;
-    color:rgb(255, 255, 255);
-    width: 38px;
-    height: 38px;
+    background-color: #ffffff;
+    color:#818184;
+    width: 27px;
+    height: 27px;
     border-radius: var(--fs0);
     display: flex;
     justify-content: center;
     align-items: center;
+    font-size: 15px;
 }
 
 .Menu-It i:active{
-    background-color: rgb(7, 161, 71);
+    background-color: rgb(30, 161, 85);
+    box-shadow: 0px 0px 4px #e0e0e0;
+    color:#ffffff;
 }
 
 .Menu-It .bi-trash3-fill:active{
-    background-color: #bd3939;
+    background-color: #cc4c4c;
+    box-shadow: 0px 0px 4px #e0e0e0;
+
 }
 
 .ContainerC:nth-child(1){
-    padding: var(--fs0) 0;
+    display: flex;
+    box-shadow: 0px 0px 4px #969494;
+    width:fit-content;
+    border-radius: 8px;
+    padding: 10px;
 }
 
 .ContainerC:last-child{
-    background-color: aqua;
+    box-shadow: 0px 0px 4px #969494;
+    width:fit-content;
+    border-radius: 8px;
+    padding: 10px;
+}
+.ContainerP{
+    height: 100vh;
+}
+.Notebook-Name{
+    padding-bottom: var(--fs0);
+    margin-bottom: var(--fs0);
+    border-bottom: 2px solid #d2d2d4;
+}
+.Notebook-Name i{    
+    cursor: pointer;
+    background-color: #ffffff;
+    color:#818184;
+    width: 32px;
+    height: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: var(--fs0);
+    font-size: 18px;
+}
+
+.Notebook-Name i:active{    
+    box-shadow: 0px 0px 4px #a9a8a8;
+    transition: 0.1s ease-in-out;
+}
+.Note .header i{    
+    cursor: pointer;
+    background-color: #ffffff;
+    color:#818184;
+    width: 32px;
+    height: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: var(--fs0);
+    font-size: 18px;
+}
+.Note .header{
+    margin:5px 0px;
+}
+.Note .header i:active{    
+    box-shadow: 0px 0px 4px #a9a8a8;
+    transition: 0.1s ease-in-out;
+}
+.Note{
+    box-shadow: 0px 0px 2px #e9e8e8;
+    border: 1px solid #d1d1d1;
+    padding: 8px;
+}
+.Note .header h1{
+    color:#656567;
+    font-family: var(--ff-Roboto);
+}
+textarea{
+    font-family: var(--ff-Roboto);
+
+    resize: none;
+    outline: none;
+    border: none;
+}
+input{
+    font-family: var(--ff-Roboto);
+    outline:none;
+    border: none;
+}
+
+input:disabled {
+    background: #ccc;
+    border: none;
 }
