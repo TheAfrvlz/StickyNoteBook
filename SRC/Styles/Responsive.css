@@ -24,6 +24,7 @@ body{
     --ff-rubik: 'Rubik', sans-serif;
     --ff-kaushan:  'Kaushan Script', cursive;
     --ff-alata: 'Alata', sans-serif;
+    --GT-Wal: ' GT walsheim', Helvetica Neue, Helvetica, Arial, sans - serif;
    --fs12: 235px;
    --fs11: 215px;
    --fs10: 205px;
@@ -48,7 +49,7 @@ body{
     --blue-7:#f3f3f3;
     --blue-8:#f3f3f3;
     --blue-9:#f3f3f3;
-    --red-0:#f3f3f3;
+    --red-0: #cc4c4c;
     --red-1:#f3f3f3;
     --red-2:#f3f3f3;
     --red-3:#f3f3f3;

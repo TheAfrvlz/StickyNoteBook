@@ -102,13 +102,14 @@ html{
 }
 textarea{
     font-family: var(--ff-Roboto);
-
+    font-size: 12px;
     resize: none;
     outline: none;
     border: none;
 }
 input{
     font-family: var(--ff-Roboto);
+    font-size: 12px;
     outline:none;
     border: none;
 }
@@ -116,4 +117,15 @@ input{
 input:disabled {
     background: #ccc;
     border: none;
+}
+.Modal{
+    top:0;
+    left: 0;
+    background-color: #464646a7;
+}
+.Modal-Content{
+    width: 70%;
+    height: 50%;
+    background-color: #f4f3f3;
+    border-radius: 12px;
 }
