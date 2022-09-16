@@ -56,6 +56,7 @@ function Init() {
           <i class="bi bi-moon-fill " id="Theme"></i>
           <i class="bi bi-person-fill " id="User"></i>
           <i class="bi bi-share-fill" id="Share"></i>
+          <i class="bi bi-translate" id="Translate"></i>
         </div>
       </div>
     </div>

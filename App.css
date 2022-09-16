@@ -108,8 +108,9 @@ textarea{
     border: none;
 }
 input{
+    background-color: #176f3900;
     font-family: var(--ff-Roboto);
-    font-size: 12px;
+    font-size: 19px;
     outline:none;
     border: none;
 }
@@ -124,8 +125,85 @@ input:disabled {
     background-color: #464646a7;
 }
 .Modal-Content{
-    width: 70%;
-    height: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 29px;
+    width: 25%;
+    height: 30%;
     background-color: #f4f3f3;
     border-radius: 12px;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+}
+
+.buttons .button{
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    align-items: center;
+    width: 120px;
+    height:40px;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+.Good{
+    background-color: #22ae58;
+    color:#fff;
+}
+
+.Good:active{
+    background-color: #176f39;
+}
+
+.Delete{
+    background-color: #de6363;
+    color:#fff;
+}
+
+.Delete:active{
+    background-color: #9f4646;
+}
+
+.Modal-Content{
+    position: relative;
+}
+.Modal-In{
+    animation: modal-in-out 0.7s ease-out alternate-reverse;
+}
+
+.Modal-Out{
+    animation: modal-in-out 0.7s ease-out;
+}
+
+.Modal-Content .bi-x-lg{
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    cursor: pointer;
+}
+.Modal-Content .info{
+    font-family: var(--ff-Roboto);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:15px;
+    justify-content: center;
+}
+
+@keyframes modal-in {
+    0%{
+        scale: 1;
+    }
+    100%{
+        scale: 0;
+    }
 }
